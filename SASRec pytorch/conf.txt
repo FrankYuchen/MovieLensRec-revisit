@@ -1,0 +1,33 @@
+--num_epochs=150
+
+--dataset="2015allshuffle01ui"    {'lr': 0.00025692850033255427, 'hidden_units': 40, 'dropout_rate': 0.4, 'maxlen': 100, 'l2_emb': 5e-05}
+
+--dataset="2015allshuffle02ui"  {'lr': 0.00022560605277058198, 'hidden_units': 40, 'dropout_rate': 0.1, 'maxlen': 100, 'l2_emb': 0.0001}
+
+--dataset="2015allshuffle03ui"  {'lr': 0.00031874911423304165, 'hidden_units': 40, 'dropout_rate': 0.5, 'maxlen': 100, 'l2_emb': 5e-05}
+
+--dataset="2015all"  {'lr': 0.0005939759321139862, 'hidden_units': 70, 'dropout_rate': 0.4, 'maxlen': 100, 'l2_emb': 5e-05}
+
+--dataset="2016allshuffle01ui"  {'lr': 0.000609567920135757, 'hidden_units': 30, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 5e-05}
+
+--dataset="2016allshuffle02ui"  {'lr': 0.0008625637141777162, 'hidden_units': 30, 'dropout_rate': 0.4, 'maxlen': 100, 'l2_emb': 5e-05}
+
+--dataset="2016allshuffle03ui"  {'lr': 0.00033341822392443074, 'hidden_units': 50, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 0.0}
+
+--dataset="2016all" {'lr': 0.0017006066601125776, 'hidden_units': 70, 'dropout_rate': 0.4, 'maxlen': 100, 'l2_emb': 5e-05}
+
+--dataset="2017allshuffle01ui" {'lr': 0.00025521812501296096, 'hidden_units': 70, 'dropout_rate': 0.4, 'maxlen': 125, 'l2_emb': 0.0001}
+
+--dataset="2017allshuffle02ui"  {'lr': 0.001775925137519859, 'hidden_units': 30, 'dropout_rate': 0.5, 'maxlen': 100, 'l2_emb': 5e-05}
+
+--dataset="2017allshuffle03ui"   {'lr': 0.00045708733845948896, 'hidden_units': 30, 'dropout_rate': 0.4, 'maxlen': 125, 'l2_emb': 5e-05}
+
+--dataset="2017all" {'lr': 0.0007676373167169486, 'hidden_units': 60, 'dropout_rate': 0.4, 'maxlen': 150, 'l2_emb': 5e-05}
+
+--dataset="2018allshuffle01ui" {'lr': 0.00033341822392443074, 'hidden_units': 50, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 0.0}
+
+--dataset="2018allshuffle02ui"  {'lr': 0.0008625637141777162, 'hidden_units': 30, 'dropout_rate': 0.4, 'maxlen': 100, 'l2_emb': 5e-05}
+
+--dataset="2018allshuffle03ui"  {'lr': 0.00033341822392443074, 'hidden_units': 50, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 0.0}
+
+--dataset="2018all" {'lr': 0.003313747601549093, 'hidden_units': 60, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 0.0001}
