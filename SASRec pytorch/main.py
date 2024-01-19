@@ -3,8 +3,10 @@ import time
 import torch
 import argparse
 
-from model import SASRec
-from utils import *
+#from model import SASRec
+from model_v2 import SASRec
+#from utils import *
+from utils_v2 import *
 
 def str2bool(s):
     if s not in {'false', 'true'}:
@@ -104,7 +106,8 @@ if __name__ == '__main__':
             adam_optimizer.step()
             print("loss in epoch {} iteration {}: {}".format(epoch, step, loss.item())) # expected 0.4~0.6 after init few epochs
     
-        if epoch % 20 == 0:
+        if epoch % 80 == 0:
+        #if epoch % 20 == 0:
             model.eval()
             t1 = time.time() - t0
             T += t1
