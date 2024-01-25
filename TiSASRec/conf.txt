@@ -1,12 +1,16 @@
 --num_epochs=150
 
+--dataset="2015allrt"  {'lr': 0.0005301122744457773, 'hidden_units': 60, 'dropout_rate': 0.30000000000000004, 'maxlen': 150, 'l2_emb': 5e-05, 'time_span': 2048}
+
+--dataset="2015rem15rt" {'lr': 0.003313747601549093, 'hidden_units': 60, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 0.0001, 'time_span': 128}
+
 --dataset="2015allshuf01"   {'lr': 0.00033341822392443074, 'hidden_units': 50, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 0.0, 'time_span': 128}
 
 --dataset="2015allshuf02"  {'lr': 0.0004405311349321837, 'hidden_units': 70, 'dropout_rate': 0.30000000000000004, 'maxlen': 50, 'l2_emb': 0.0, 'time_span': 512}
 
 --dataset="2015allshuf03"  {'lr': 0.0002367800316030736, 'hidden_units': 60, 'dropout_rate': 0.5, 'maxlen': 75, 'l2_emb': 0.0, 'time_span': 128}
 
---dataset="2015allrt"  {'lr': 0.0005301122744457773, 'hidden_units': 60, 'dropout_rate': 0.30000000000000004, 'maxlen': 150, 'l2_emb': 5e-05, 'time_span': 2048}
+--dataset="2016rem15rt" {'lr': 0.003313747601549093, 'hidden_units': 60, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 0.0001, 'time_span': 128}
 
 --dataset="2016allshuf01"  {'lr': 0.003313747601549093, 'hidden_units': 60, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 0.0001, 'time_span': 128}
 
@@ -15,6 +19,9 @@
 --dataset="2016allshuf03"  {'lr': 0.0005390633819195287, 'hidden_units': 60, 'dropout_rate': 0.30000000000000004, 'maxlen': 50, 'l2_emb': 5e-05, 'time_span': 1024}
 
 --dataset="2016allrt" {'lr': 0.0005301122744457773, 'hidden_units': 60, 'dropout_rate': 0.30000000000000004, 'maxlen': 150, 'l2_emb': 5e-05, 'time_span': 2048}
+
+
+--dataset="2017rem15rt" {'lr': 0.0005301122744457773, 'hidden_units': 60, 'dropout_rate': 0.30000000000000004, 'maxlen': 150, 'l2_emb': 5e-05, 'time_span': 2048}
 
 --dataset="2017allshuf01" {'lr': 0.00033341822392443074, 'hidden_units': 50, 'dropout_rate': 0.30000000000000004, 'maxlen': 125, 'l2_emb': 0.0, 'time_span': 128}
 
