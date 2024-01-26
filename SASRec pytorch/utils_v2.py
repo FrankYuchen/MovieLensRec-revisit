@@ -113,8 +113,8 @@ def evaluate(model, dataset, args):
     HT = 0.0
     valid_user = 0.0
 
-    if usernum>10000:
-        users = random.sample(range(1, usernum + 1), 10000)
+    if usernum>100000:
+        users = random.sample(range(1, usernum + 1), 100000)
     else:
         users = range(1, usernum + 1)
     for u in users:
@@ -165,8 +165,8 @@ def evaluate_valid(model, dataset, args):
     NDCG = 0.0
     valid_user = 0.0
     HT = 0.0
-    if usernum>10000:
-        users = random.sample(range(1, usernum + 1), 10000)
+    if usernum>100000:
+        users = random.sample(range(1, usernum + 1), 100000)
     else:
         users = range(1, usernum + 1)
     for u in users:
